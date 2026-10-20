@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.Usb", "Nexora.Usb\Nexora.Usb.csproj", "{5C1F262D-4533-59A6-A8D8-6D470B9D3102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.Usb.Tests", "Nexora.Usb.Tests\Nexora.Usb.Tests.csproj", "{3ABAFF06-BEAB-56A1-8738-69C3D25C9030}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C1F262D-4533-59A6-A8D8-6D470B9D3102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1F262D-4533-59A6-A8D8-6D470B9D3102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1F262D-4533-59A6-A8D8-6D470B9D3102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1F262D-4533-59A6-A8D8-6D470B9D3102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ABAFF06-BEAB-56A1-8738-69C3D25C9030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABAFF06-BEAB-56A1-8738-69C3D25C9030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABAFF06-BEAB-56A1-8738-69C3D25C9030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABAFF06-BEAB-56A1-8738-69C3D25C9030}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

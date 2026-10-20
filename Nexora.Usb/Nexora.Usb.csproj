@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.1.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Protocol\OP_IMPORT_REQUEST.cs" />
+    <Compile Remove="Protocol\OP_REP_IMPORT.cs" />
+    <Compile Remove="Protocol\OP_REQ_DEVLIST.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="6.0.2" />
+    <ProjectReference Include="..\..\nexora-fido\Nexora.Fido\Nexora.Fido.csproj" />
+    <ProjectReference Include="..\..\nexora-fido\Nexora.SecretManager.MemoryBasedSecretStore\Nexora.SecretManager.MemoryBasedSecretStore.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Nexora" />
+    <InternalsVisibleTo Include="Nexora.Usb.Tests" />
+  </ItemGroup>
+</Project>
