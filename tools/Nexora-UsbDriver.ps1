@@ -1,4 +1,4 @@
-# Nexora 1.1 - Diagnostic/installation explicite du pilote USB/IP Windows.
+# Nexora 1.2 - Diagnostic/installation explicite du pilote USB/IP Windows.
 # Aucune suppression de pilote, aucun changement du mode de signature Windows.
 [CmdletBinding()]
 param(

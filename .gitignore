@@ -27,3 +27,6 @@ coverage/
 *.key
 .env
 .env.*
+
+*.vault
+*.vault.new.*

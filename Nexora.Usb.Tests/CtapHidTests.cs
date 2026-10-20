@@ -152,7 +152,7 @@ namespace Nexora.Usb.Tests
             Assert.Equal(CtapHidConstants.CTAPHID_CBOR, report[4]);
             var bcnt = (report[5] << 8) | report[6];
             Assert.Equal(1, bcnt);
-            Assert.Equal(CtapHidConstants.CTAP1_ERR_INVALID_CMD, report[7]);
+                Assert.Equal(CtapHidConstants.CTAP1_ERR_INVALID_CMD, report[7]);
         }
     }
 }
